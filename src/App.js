@@ -54,8 +54,8 @@ function App() {
   const handleChange = (e) => {
     const { name, value } = e.target
     setForm({ ...form, [name]: value })
-    console.log(form)
   }
+  
   const resetForm = () => {
     document.documentElement.style.overflowY = "visible"
     setForm({

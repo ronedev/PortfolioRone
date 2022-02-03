@@ -1,7 +1,5 @@
 import React from 'react'
 import menu from './../img/menu.png'
-import arg from './../img/argentina.png'
-import ing from './../img/gran-bretana.png'
 
 const Navbar = () => {
 
@@ -18,7 +16,7 @@ const Navbar = () => {
     const abrirMenu = () =>{
         const nav = document.getElementById('navMenu')
         const header = document.getElementById('header')
-        if(nav.classList == 'nav'){
+        if(nav.classList === 'nav'){
             nav.classList.replace('nav', 'navMenu')
             header.style.padding = '7rem 0'
         }else{

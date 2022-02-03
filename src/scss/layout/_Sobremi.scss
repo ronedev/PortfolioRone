@@ -7,17 +7,21 @@
     align-items: center;
     justify-content: center;
     .sobreMiSection{
-        display: flex;
+        display: grid;
+        justify-items: center;
         align-items: center;
-        justify-content: space-around;
         height: 100%;
         width: 100%;
         padding: 0 2rem;
+        @include tablet{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
         img{
-            width: 50%;
+            width: 30%;
             border-radius: 15rem;
             @include tablet{
-                width: 20%;
+                width: 100%;
             }
         }
         .sobreMi{

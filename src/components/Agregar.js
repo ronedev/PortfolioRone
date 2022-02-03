@@ -1,5 +1,4 @@
 import { doc, setDoc } from '@firebase/firestore'
-import { FlipRounded } from '@material-ui/icons'
 import React, { useState } from 'react'
 import db from './../firebase'
 
@@ -33,7 +32,7 @@ const Agregar = (props) => {
     return (
         <div className="contenedorCentrado">
             <form className="contactForm" onSubmit={agregar}>
-            <h3 className={alerta ? 'titulo active' : 'loading'}>Se ha agregadio el proyecto correctamente</h3>
+            <h3 className={alerta ? 'titulo active' : 'loading'}>Se ha agregado el proyecto correctamente</h3>
             <fieldset className="legendForm">
                     <label name="name">Nombre del proyecto:</label>
                     <input type="text" name="name" onChange={handleChange} className="campoForm" required></input>

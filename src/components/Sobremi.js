@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import retrato from './../img/agustinVera.jpg'
 import Typed from 'react-typed';
 
