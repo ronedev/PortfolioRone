@@ -1,0 +1,86 @@
+.sobreMiContainer{
+    height: 100%;
+    width: 100%;
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sobreMiSection{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding: 0 2rem;
+        img{
+            width: 50%;
+            border-radius: 15rem;
+            @include tablet{
+                width: 20%;
+            }
+        }
+        .sobreMi{
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .texto{
+                margin: 0;
+            }
+        }
+    }
+}
+
+@include tablet{
+    .sobreMiSection{
+        padding: 0 10rem;
+        .sobreMi{
+            width: 60rem;
+            padding: 0;
+            display: block;
+            .titulo{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+.btnContactoContenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn{
+        background-color: #c299ff;
+        border: none;
+        color: $principal;
+        text-transform: uppercase;
+        font-family: $fuente_titulos;
+        padding: 2rem 5rem;
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        border-radius: .6rem;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .btn:hover{
+        background-color: $cuaternario;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sobreMiSection{
+        flex-direction: column;
+        img{
+            width: 50%;
+        }
+    }
+
+}
+
+
+
+

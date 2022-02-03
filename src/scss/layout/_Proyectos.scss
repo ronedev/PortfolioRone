@@ -1,0 +1,106 @@
+.proyectosSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.proyectosContenedor{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // .btn{
+    //     border: none;
+    //     background-color: $secundario;
+    //     border-radius: 30%;
+    //     height: 5rem;
+    //     width: 5rem;
+    //     font-family: $fuente_base;
+    //     font-size: 4rem;
+    //     font-weight: 900;
+    //     text-align: center;
+    //     color: white;
+    //     cursor: pointer;
+    //     box-shadow: 1rem 1rem 2rem #1b0044;
+    // }
+}
+
+.gridProyectos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 2rem 10rem;
+}
+
+.proyectoContenedor{
+    max-width: 100rem;
+    max-height: 60rem;
+    display: flex;
+    background-color: $secundario;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 2rem 2rem 4rem #1b0044;
+    cursor: pointer;
+    transition: .5s ease;
+    margin-bottom: 2rem;
+    h2{
+        font-size: 2.5rem;
+        color: $principal;
+        font-family: $fuente_titulos;
+        text-shadow: none;
+        text-transform: uppercase;
+    }
+    h4{
+        color: $principal;
+        margin: 1rem 0 0 0;
+    }
+    img{
+        width: 60rem;
+        margin: 0;
+    }
+}
+
+.proyectoContenedor:hover{
+    transform: scale(1.07);
+    background-color: $cuaternario;
+}
+
+// .slide{
+//     opacity: .2;
+//     transition-duration: 1s ease;
+// }
+
+// .slide.active{
+//     opacity: 1;
+//     transition-duration: 1s;
+//     transform: scale(1.1);
+//     padding: 2rem;
+// }
+
+// .btnAtras{
+//     position: absolute;
+//     top: 50%;
+//     left: 5%;
+//     z-index: 10;
+// }
+
+// .btnAdelante{
+//     position: absolute;
+//     top: 50%;
+//     right: 5%;
+//     z-index: 10;
+// }
+
+@media screen and (max-width: 768px){
+    .gridProyectos{
+        display: flex;
+        flex-direction: column;
+    }
+}

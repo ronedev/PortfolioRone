@@ -1,0 +1,40 @@
+.footer{
+    height: 15rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    .redes{
+        height: 5rem;
+        width: 50rem;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            padding: 3rem 1rem;
+            background-color: #c299ff;
+            border-radius: 4rem;
+            cursor: pointer;
+            img{
+                height: 4rem;
+            }
+        }
+    }
+    .line{
+        width: 100%;
+        height: 1rem;
+        border-top: 1px solid #fff;
+        margin-top: 4rem;
+    }
+    p{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0;
+        color: #fff;
+    }
+}

@@ -1,0 +1,26 @@
+.admin{
+    background-color: $principal;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20rem;
+    h2{
+        margin: 0;
+        padding: 2rem 0;
+        font-size: 5rem;
+    }
+    .proyectos{
+        margin-top: 5rem;
+        th{
+            font-size: 3rem;
+        }
+        td{
+            font-size: 2rem;
+            padding: 0 3rem;
+            color: $cuaternario;
+            font-family: $fuente_base;
+        }
+    }
+}

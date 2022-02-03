@@ -1,0 +1,99 @@
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 7rem;
+    padding: 0 2rem;
+    a{
+        text-decoration: none;
+    }
+    img{
+        height: 4rem;
+    }
+    @include tablet{
+        justify-content: flex-start;
+    }
+}
+
+.logo{
+    font-family: $fuente_titulos;
+    font-size: 3rem;
+    color: #B700FF;
+    text-shadow: 2px 2px 5px #5d0081;
+    span{
+        color: #c299ff;
+    }
+}
+
+.navMenu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    a{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $fuente_titulos;
+        color: #c299ff;
+    }
+    
+}
+
+.nav{
+    width: 4rem;
+    display: none;
+    a{
+        margin-right: 0;
+        font-size: 1rem;
+        font-family: $fuente_titulos;
+        color: #c299ff;
+        text-transform: uppercase;
+        text-shadow: 1px 2px 3px #8A00FF;
+        font-weight: 100;
+    }
+    a:hover{
+        color: $cuaternario;
+    }
+}
+
+.headerIdiomas{
+    display: none;
+    img{
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+}
+
+@include tablet {
+    .hamburguerNav{
+        display: none;
+    }
+    .logo{
+        font-size: 3rem;
+        margin: 1rem 25rem 1rem 1rem;
+    }
+    .nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a{
+            margin-bottom: 0;
+            margin-right: 4rem;
+            font-size: 1.2rem;
+        }
+    }
+    .headerNav{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
