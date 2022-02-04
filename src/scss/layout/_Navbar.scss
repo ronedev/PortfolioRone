@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: #000;
     display: flex;
     justify-content: space-between;
@@ -9,37 +9,37 @@
     width: 100%;
     height: 7rem;
     padding: 0 2rem;
-    a{
+    a {
         text-decoration: none;
     }
-    img{
+    img {
         height: 4rem;
     }
-    @include tablet{
+    @include tablet {
         justify-content: flex-start;
     }
 }
 
-.logo{
+.logo {
     font-family: $fuente_titulos;
     font-size: 2rem;
-    color: #B700FF;
+    color: #b700ff;
     text-shadow: 2px 2px 5px #5d0081;
-    span{
+    span {
         color: #c299ff;
     }
-    @include tablet{
+    @include tablet {
         font-size: 3rem;
     }
 }
 
-.navMenu{
+.navMenu {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
-    a{
+    a {
         margin-bottom: 1rem;
         font-size: 1rem;
         text-decoration: none;
@@ -47,56 +47,110 @@
         font-family: $fuente_titulos;
         color: #c299ff;
     }
-    
 }
 
-.nav{
+.nav {
     width: 4rem;
     display: none;
-    a{
+    a {
         margin-right: 0;
         font-size: 1rem;
         font-family: $fuente_titulos;
         color: #c299ff;
         text-transform: uppercase;
-        text-shadow: 1px 2px 3px #8A00FF;
+        text-shadow: 1px 2px 3px #8a00ff;
         font-weight: 100;
     }
-    a:hover{
+    a:hover {
         color: $cuaternario;
     }
 }
 
-.headerIdiomas{
+.headerIdiomas {
     display: none;
-    img{
+    img {
         margin-right: 2rem;
         cursor: pointer;
     }
 }
 
 @include tablet {
-    .hamburguerNav{
+    .hamburguerNav {
         display: none;
     }
-    .logo{
+    .logo {
         font-size: 3rem;
         margin: 1rem 25rem 1rem 1rem;
     }
-    .nav{
+    .nav {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        a{
+        a {
             margin-bottom: 0;
             margin-right: 4rem;
             font-size: 1.2rem;
         }
     }
-    .headerNav{
+    .headerNav {
         display: flex;
         justify-content: flex-start;
+    }
+}
+
+.mobileMenuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c299ff;
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .enlacesContainer {
+        position: relative;
+        #retratoMenu {
+            position: absolute;
+            width: 20rem; 
+            top: -30%;
+            left: 17%;
+        }
+        .enlaces {
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            z-index: 1000;
+            height: 40rem;
+            width: 30rem;
+            border-radius: 5rem;
+            a {
+                text-decoration: none;
+                margin-right: 0;
+                font-size: 1.6rem;
+                font-family: $fuente_titulos;
+                color: #c299ff;
+                text-transform: uppercase;
+                text-shadow: 1px 2px 3px #8a00ff;
+                font-weight: 100;
+            }
+        }
+    }
+    .logo{
+        text-decoration: none;
+        font-size: 4rem;
+    }
+    .topMenu {
+        align-self: flex-end;
+        padding: 0 2rem;
+        img {
+            width: 4rem;
+        }
     }
 }

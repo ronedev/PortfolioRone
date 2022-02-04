@@ -20,7 +20,8 @@
     padding: 2rem 0;
     border:none;
     input, textarea{
-        color: #000000;
+        padding-left: 2rem;
+        color: #fff;
         font-family: $fuente_titulos;
     }
     h3{
@@ -30,25 +31,19 @@
 }
 .campoForm{
     margin: 10px 2px;
-    background-color: $secundario;
-    color: $principal;
+    background-color: #000;
+    color: #fff;
     border: none;
-    border-bottom: 3px solid rgb(124, 7, 207);
-    padding: 2rem 3rem;
+    padding: .8rem 0;
     border-radius: 3rem;
 }
-.legendForm>legend{
-    font-size: 2.5rem;
-    color: $secundario;
-    font-family: $fuente_titulos;
-    text-transform: uppercase;
-}
+
 .legendForm>label{
     font-weight: 700;
     text-transform: uppercase;
     color: $secundario;
     font-family: $fuente_base;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .btn{
     background-color: #c299ff;
@@ -56,9 +51,9 @@
     color: $principal;
     text-transform: uppercase;
     font-family: $fuente_titulos;
-    padding: 2rem;
+    padding: 1.5rem 1rem;
     margin: 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: .6rem;
     cursor: pointer;
     text-decoration: none;

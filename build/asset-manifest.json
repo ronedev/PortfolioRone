@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd582490.chunk.css",
-    "main.js": "/static/js/main.ce56263f.chunk.js",
-    "main.js.map": "/static/js/main.ce56263f.chunk.js.map",
+    "main.css": "/static/css/main.26708ec1.chunk.css",
+    "main.js": "/static/js/main.51b6ba1b.chunk.js",
+    "main.js.map": "/static/js/main.51b6ba1b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.1aeb5a14.chunk.js": "/static/js/2.1aeb5a14.chunk.js",
-    "static/js/2.1aeb5a14.chunk.js.map": "/static/js/2.1aeb5a14.chunk.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.92f737c3.chunk.js": "/static/js/2.92f737c3.chunk.js",
+    "static/js/2.92f737c3.chunk.js.map": "/static/js/2.92f737c3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fd582490.chunk.css.map": "/static/css/main.fd582490.chunk.css.map",
-    "static/js/2.1aeb5a14.chunk.js.LICENSE.txt": "/static/js/2.1aeb5a14.chunk.js.LICENSE.txt",
-    "static/media/gorjeo.94db4a07.png": "/static/media/gorjeo.94db4a07.png",
-    "static/media/gran-bretana.6e2f02cf.png": "/static/media/gran-bretana.6e2f02cf.png",
+    "static/css/2.ed1298f3.chunk.css.map": "/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.26708ec1.chunk.css.map": "/static/css/main.26708ec1.chunk.css.map",
+    "static/js/2.92f737c3.chunk.js.LICENSE.txt": "/static/js/2.92f737c3.chunk.js.LICENSE.txt",
+    "static/media/agustinVera.c196fa69.jpg": "/static/media/agustinVera.c196fa69.jpg",
     "static/media/gulppixel.1b6f40f5.png": "/static/media/gulppixel.1b6f40f5.png",
-    "static/media/instagram.edb90ecc.png": "/static/media/instagram.edb90ecc.png",
     "static/media/mysqlpixel.481daddd.png": "/static/media/mysqlpixel.481daddd.png",
     "static/media/phppixel.5db328e3.png": "/static/media/phppixel.5db328e3.png",
     "static/media/reactpixel.a636e4f9.png": "/static/media/reactpixel.a636e4f9.png",
-    "static/media/sasspixel.09e8a44c.png": "/static/media/sasspixel.09e8a44c.png",
-    "static/media/yosinfondo.98469eed.png": "/static/media/yosinfondo.98469eed.png"
+    "static/media/sasspixel.09e8a44c.png": "/static/media/sasspixel.09e8a44c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.1aeb5a14.chunk.js",
-    "static/css/main.fd582490.chunk.css",
-    "static/js/main.ce56263f.chunk.js"
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.92f737c3.chunk.js",
+    "static/css/main.26708ec1.chunk.css",
+    "static/js/main.51b6ba1b.chunk.js"
   ]
 }
