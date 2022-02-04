@@ -6,6 +6,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include tablet{
+        height: 90vh;
+        padding-top: 0;
+    }
     .sobreMiSection{
         display: grid;
         justify-items: center;
@@ -21,7 +25,7 @@
             width: 30%;
             border-radius: 15rem;
             @include tablet{
-                width: 100%;
+                width: 50%;
             }
         }
         .sobreMi{
@@ -62,9 +66,9 @@
         color: $principal;
         text-transform: uppercase;
         font-family: $fuente_titulos;
-        padding: 2rem 5rem;
+        padding: 1.5rem 1rem;
         margin: 1rem 0;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border-radius: .6rem;
         cursor: pointer;
         text-decoration: none;

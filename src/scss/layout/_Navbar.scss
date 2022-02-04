@@ -1,7 +1,7 @@
 .header{
     background-color: #000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -22,11 +22,14 @@
 
 .logo{
     font-family: $fuente_titulos;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #B700FF;
     text-shadow: 2px 2px 5px #5d0081;
     span{
         color: #c299ff;
+    }
+    @include tablet{
+        font-size: 3rem;
     }
 }
 

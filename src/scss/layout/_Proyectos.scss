@@ -1,19 +1,24 @@
-.proyectosSection{
+.proyectosSection {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-a{
-    text-decoration: none;
-}
-.proyectosContenedor{
-    width: 100vw;
-    height: 100%;
+    max-height: 100vh;
+    max-width: 100vw;
+    @include tablet{
+        max-height: 100%;
+    }
+}   
+.proyectosContenedor {
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include tablet{
+        height: 100%;
+    }
     // .btn{
     //     border: none;
     //     background-color: $secundario;
@@ -30,16 +35,54 @@ a{
     // }
 }
 
-.gridProyectos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
-    padding: 2rem 10rem;
+.gridProyectos {
+    display: none;
+    @include tablet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+.mobileProyectos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2rem;
+    width: 100%;
+    .carousel {
+        .slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slider-wrapper {
+            display: flex;
+            justify-content: center;
+            .slider {
+                align-items: center;
+            }
+        }
+        .control-dots {
+            position: absolute;
+            bottom: 0;
+            left: 0%;
+            width: 100%;
+            .dot {
+                background: #000;
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+    }
+    @include tablet {
+        display: none;
+    }
 }
 
-.proyectoContenedor{
-    max-width: 100rem;
-    max-height: 60rem;
+.proyectoContenedor {
+    height: 40rem;
+    width: 30rem;
     display: flex;
     background-color: $secundario;
     flex-direction: column;
@@ -48,26 +91,26 @@ a{
     border-radius: 2rem;
     box-shadow: 2rem 2rem 4rem #1b0044;
     cursor: pointer;
-    transition: .5s ease;
-    margin-bottom: 2rem;
-    h2{
+    transition: 0.5s ease;
+    margin-bottom: 6rem;
+    @include tablet{
+        height: 30rem;
+        width: 25rem;
+    }
+    h2 {
         font-size: 2.5rem;
         color: $principal;
         font-family: $fuente_titulos;
         text-shadow: none;
         text-transform: uppercase;
     }
-    h4{
-        color: $principal;
+    h4 {
+        color: #fff;
         margin: 1rem 0 0 0;
-    }
-    img{
-        width: 60rem;
-        margin: 0;
     }
 }
 
-.proyectoContenedor:hover{
+.proyectoContenedor:hover {
     transform: scale(1.07);
     background-color: $cuaternario;
 }
@@ -98,9 +141,3 @@ a{
 //     z-index: 10;
 // }
 
-@media screen and (max-width: 768px){
-    .gridProyectos{
-        display: flex;
-        flex-direction: column;
-    }
-}
