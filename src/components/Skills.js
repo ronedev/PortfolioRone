@@ -26,7 +26,7 @@ const Skills = (props) => {
             <div className="skillsSection">
                 <div className="skillsDescription">
                     <h2 className="titulo">TECNOLOGIAS</h2>
-                    <p className="texto">Desde hace poco mas de un año empece a estudiar desarrollo web de forma autonoma y autodidacta. YouTube, la comunidad, Udemy y la documentacion fueron mis mejores aliados. Con estas tecnologias que aprendi en este camino y otras que traia desde antes desde hace un par de meses estoy trabajando de forma freelancer como desarrollador web full stack. Entre mi repertorio de habilidades se encuentra: </p>
+                    <p className="texto">Hace casi 2 años atrás empecé a estudiar desarrollo web de forma autonoma y autodidacta. YouTube, la comunidad, Udemy y la documentacion fueron mis mejores aliados. Gracias a estas tecnologías que aprendí en este camino y otras que traia desde antes, actualmente estoy trabajando de forma freelancer como Frontend Developer. Entre mi repertorio de habilidades se encuentra: </p>
                 </div>
                 <div className="skillsGrid">
                     {skills.map((skill, idx) => {

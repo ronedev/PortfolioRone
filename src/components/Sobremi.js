@@ -27,7 +27,7 @@ const Sobremi = () => {
                         backSpeed={90}
                         loop
                     />
-                    <p className="texto">¡Hola! Mi nombre es Agustin Vera, aunque algunos me llaman Rone. Soy actual estudiante de la carrera Ingenieria en Informatica de la Universidad de Mendoza y ademas desarrollador web full stack Junior. La tecnologia es un mundo que siempre me apasionó y no me canso de aprender de ella. Entre mis pasatiempos, cuando no estoy estudiando o programando, suelo jugar videojuegos, ver peliculas y dibujar o pintar graffitis.</p> 
+                    <p className="texto">¡Hola! Mi nombre es Agustin Vera, aunque algunos me llaman Rone. Soy actual estudiante de la Tecnicatura Universitaria en Programación de la UTN (Universidad Tecnologica Nacional) y ademas Frontend Developer Junior. Actualmente mis planes a futuro son trabajar en una empresa, terminar la Tecnicatura, tal vez luego, seguir por la ingenieria y por último, ampliar y fortalecer mi stack. Entre mis pasatiempos, cuando no estoy estudiando o programando, suelo jugar videojuegos, dibujar o pintar graffitis.</p> 
                 </div>
             </div>
             <div className="btnContactoContenedor">

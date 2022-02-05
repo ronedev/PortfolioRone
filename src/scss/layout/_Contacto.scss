@@ -6,6 +6,12 @@
     align-items: center;
     flex-direction: column;
     margin: 4rem 0;
+    background-image: url('./../../img/fondos/contactoMobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include tablet{
+      background-image: url('./../../img/fondos/contacto2.jpg');
+    }
     h2{
         margin-bottom: 4rem;
     }
@@ -13,6 +19,21 @@
 .contactForm{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    .btn{
+      background-color: #c299ff;
+      width: 12rem;
+      border: none;
+      color: $principal;
+      text-transform: uppercase;
+      font-family: $fuente_titulos;
+      padding: 1.5rem 1rem;
+      margin: 1rem 0;
+      font-size: 1rem;
+      border-radius: .6rem;
+      cursor: pointer;
+      text-decoration: none;
+  }
 }
 .legendForm{
     display: flex;
@@ -45,19 +66,7 @@
     font-family: $fuente_base;
     font-size: 1.2rem;
 }
-.btn{
-    background-color: #c299ff;
-    border: none;
-    color: $principal;
-    text-transform: uppercase;
-    font-family: $fuente_titulos;
-    padding: 1.5rem 1rem;
-    margin: 1rem 0;
-    font-size: 1rem;
-    border-radius: .6rem;
-    cursor: pointer;
-    text-decoration: none;
-}
+
 
 .btn:hover{
     background-color: $cuaternario;
