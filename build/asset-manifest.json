@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.98ca111e.chunk.css",
+    "main.css": "/static/css/main.3dbc17ff.chunk.css",
     "main.js": "/static/js/main.6d768fd9.chunk.js",
     "main.js.map": "/static/js/main.6d768fd9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
@@ -10,7 +10,7 @@
     "static/js/2.92f737c3.chunk.js.map": "/static/js/2.92f737c3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.98ca111e.chunk.css.map": "/static/css/main.98ca111e.chunk.css.map",
+    "static/css/main.3dbc17ff.chunk.css.map": "/static/css/main.3dbc17ff.chunk.css.map",
     "static/js/2.92f737c3.chunk.js.LICENSE.txt": "/static/js/2.92f737c3.chunk.js.LICENSE.txt",
     "static/media/agustinVera.c196fa69.jpg": "/static/media/agustinVera.c196fa69.jpg",
     "static/media/App.scss": "/static/media/contactoMobile.d073cc5b.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.5ebc510a.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.92f737c3.chunk.js",
-    "static/css/main.98ca111e.chunk.css",
+    "static/css/main.3dbc17ff.chunk.css",
     "static/js/main.6d768fd9.chunk.js"
   ]
 }

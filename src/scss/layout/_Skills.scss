@@ -26,7 +26,12 @@
       align-items: center;
       width: 100%;
       @include tablet{
-        padding: 0;
+        padding: 4rem;
+      }
+      .texto{
+        @include tablet{
+          padding: 2rem;
+        }
       }
     }
   }
