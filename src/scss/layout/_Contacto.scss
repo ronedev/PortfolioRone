@@ -69,12 +69,12 @@
 
 
 .btn:hover{
-    background-color: $cuaternario;
+    background-color: $principal;
 }
 
 input:focus,textarea:focus{
     outline: none;
-    border-bottom: 3px solid $terciario;
+    border-bottom: 3px solid $secundario;
 }
 
 .loading.active{

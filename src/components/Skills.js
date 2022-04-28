@@ -22,7 +22,7 @@ const Skills = (props) => {
     }
 
     return (
-        <div className="skillsContenedor" id="skills">
+        <section className="skillsContenedor" id="skills">
             <div className="skillsSection">
                 <div className="skillsDescription">
                     <h2 className="titulo">TECNOLOGIAS</h2>
@@ -53,7 +53,7 @@ const Skills = (props) => {
                     })}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

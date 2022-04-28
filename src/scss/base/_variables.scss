@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
 
 //Fuentes
-$fuente_titulos: 'Press Start 2P', sans-serif;
-$fuente_base: 'Montserrat', sans-serif;
+$fuente_titulos: 'Poppins', sans-serif;
+$fuente_base: 'Inter', sans-serif;
 
 //Tamaños Media Queries
 
@@ -13,9 +13,9 @@ $desktop:102.4rem;
 
 //Colores
 
-$principal: #3A008F;
-$secundario: #000000;
-$terciario: #8A00FF;
-$cuaternario: #DA00FF;
+$principal: #C299FF;
+$secundario: #212529;
+$blanco: #ffffff;
+$negro: #000000;
 $fondo: rgba(158,0,255, .4);
 $nav: #1b0042;
