@@ -13,5 +13,10 @@
     "about.btnPrymary": "¿Quien soy?",
     "about.title": "Sobre mi",
     "about.description": "Hola! Yo soy Agustin Vera y yo soy un creativo desarrollador Front-end (en un futuro backend tambien) apasionado por crear aplicaciones web. Actualmente soy estudiante de la Tecnicatura Universitaria en Programación en la UTN (Universidad Tecnologica Nacional). Estoy siempre curioso por aprender nuevas habilidades, herramientas y conceptos. Además de trabajar en varios proyectos en solitario full stack, he trabajado en varios proyectos pagos como freelance.",
-    "about.contact": "Contactame"
+    "about.contact": "Contactame",
+
+    "skills.btnPrimary": "Mis habilidades",
+    "skills.title": "¿Que tecnologias manejo?",
+    "skills.description": "Emepcé a estudiar desarrollo web usando herramientas como Youtube, Udemy, la comunidad y la documentación de las distintas tecnologias. Mi camino como desarrollador front-end ha sido 100% autodidacta.",
+    "skills.contact": "Contactame"
 }

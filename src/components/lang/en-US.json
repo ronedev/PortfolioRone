@@ -13,5 +13,10 @@
     "about.btnPrymary": "Who i am",
     "about.title": "About me",
     "about.description": "Hello! I am Agustin Vera and I am a creative Front-end developer (in the future backend too) passionate about creating web applications. I am currently a student of the University Technician in Programming at the UTN (National Technological University). I am always curious to learn new skills, tools and concepts. In addition to working on several full stack solo projects, I have worked on several paid projects as a freelancer.",
-    "about.contact": "Contact me"
+    "about.contact": "Contact me",
+
+    "skills.btnPrimary": "My skills",
+    "skills.title": "What my programming skills included?",
+    "skills.description": "I started studying web development using tools like Youtube, Udemy, the community and the documentation of the different technologies. My training as a front-end developer has been 100% self-taught.",
+    "skills.contact": "Contact me"
 }

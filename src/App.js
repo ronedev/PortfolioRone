@@ -1,5 +1,4 @@
 import Navbar from './components/navbar/Navbar';
-import Skills from './components/Skills';
 import Sobremi from './components/Sobremi';
 import './scss/App.scss';
 import cssPixel from './img/csspixel.png';
@@ -19,9 +18,9 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from 'components/home/Home';
 import Aboutme from 'components/about/Aboutme';
+import Skills from 'components/skills/Skills';
 
 function App() {
-  const skills = [htmlPixel, cssPixel, jsPixel, reactPixel, figmaPixel, sassPixel, mysqlPixel, phpPixel, premierePixel, photoshopPixel, ilustratorPixel, gulpPixel]
 
   return (
     <Router className="App">
@@ -30,8 +29,8 @@ function App() {
           <Navbar />
           <Home />
           <Aboutme />
+          <Skills />
           <Sobremi />
-          <Skills skills={skills} />
           <Contacto />
           <Footer />
         </Route>
