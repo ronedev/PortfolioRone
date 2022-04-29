@@ -1,0 +1,47 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-color: $secundario;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2,span,h1,p{
+            font-family: $fuente_base;
+            color: $blanco;
+        }
+        span{
+            color: $principal;
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        h1{
+            font-size: 4.5rem;
+            font-weight: 900;
+            margin-bottom: 0;
+        }
+        p{
+            font-size: 1.5rem;
+            font-weight: 100;
+        }
+        .imgContainer{
+            height: 15rem;
+            width: 15rem;
+            background-color: $principal;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 14rem;
+            }
+        }
+    }
+}

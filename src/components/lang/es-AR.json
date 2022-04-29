@@ -1,0 +1,17 @@
+{
+    "nav.home": "Inicio",
+    "nav.about": "Sobre mi",
+    "nav.skills": "Habilidades",
+    "nav.portfolio": "Portafolio",
+    "nav.contact": "Contacto",
+
+    "home.me": "Hola, yo soy ",
+    "home.me.name": "Agustin Vera",
+    "home.profession": "Desarrollador Front-end junior",
+    "home.description": "Me encanta resolver y programar soluciones para darle al usuario la mejor experiencia posible",
+
+    "about.btnPrymary": "¿Quien soy?",
+    "about.title": "Sobre mi",
+    "about.description": "Hola! Yo soy Agustin Vera y yo soy un creativo desarrollador Front-end (en un futuro backend tambien) apasionado por crear aplicaciones web. Actualmente soy estudiante de la Tecnicatura Universitaria en Programación en la UTN (Universidad Tecnologica Nacional). Estoy siempre curioso por aprender nuevas habilidades, herramientas y conceptos. Además de trabajar en varios proyectos en solitario full stack, he trabajado en varios proyectos pagos como freelance.",
+    "about.contact": "Contactame"
+}
