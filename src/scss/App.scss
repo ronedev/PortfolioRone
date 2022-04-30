@@ -1,9 +1,9 @@
 //Bases
 
+@import 'base/mixins';
 @import 'base/variables';
 @import 'base/globales';
 @import 'base/normalize';
-@import 'base/mixins';
 
 
 //Layout
@@ -12,9 +12,8 @@
 @import 'layout/HamburguerNav';
 @import 'layout/Home';
 @import 'layout/Aboutme';
-@import 'layout/Sobremi';
 @import 'layout/Skills';
-@import 'layout/Contacto';
+@import 'layout/Works';
+@import 'layout/Reviews';
+@import 'layout/Contact';
 @import 'layout/Footer';
-@import 'layout/Login';
-@import 'layout/Admin';

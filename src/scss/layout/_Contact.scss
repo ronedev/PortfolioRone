@@ -1,0 +1,75 @@
+.contactSection{
+    height: 100vh;
+    width: 100vw;
+    background-color: $secundario;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @include tablet{
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactDescription{
+        max-width: 40rem;
+        @include tablet{
+            width: 25rem;
+            display: grid;
+            align-content: center;
+            justify-items: center;
+        }
+        h2{
+            font-family: $fuente_titulos;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: $blanco;
+            margin-top: 0;
+            @include tablet{
+                font-size: 2.5rem;
+                text-align: center;
+            }
+        }
+        p{
+            color: $blanco;
+            font-family: $fuente_titulos;
+            font-size: 1.2rem;
+            font-weight: 100;
+            text-align: justify;
+            max-width: 40rem;
+            line-height: 2rem;
+
+        }
+    }
+    .contactForm{
+        background-color: $principal;
+        width: 40rem;
+        height: 20rem;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        @include tablet{
+            max-width: 30rem;
+            height: 25rem;
+            margin: 3rem 0;
+            justify-content: center;
+            #btnSubmit{
+                margin-top: 1rem;
+            }
+        }
+        .inputContainer{
+            padding: 0 2rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @include tablet{
+                flex-direction: column;
+            }
+            #message{
+                width: 100%;
+            }
+        }
+    }
+}

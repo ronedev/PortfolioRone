@@ -5,6 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include tablet{
+        padding: 4rem 2rem;
+    }
     .home{
         display: flex;
         flex-direction: column;
@@ -21,15 +24,27 @@
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 0;
+            @include tablet{
+                font-size: 1.5rem;
+            }
         }
         h1{
             font-size: 4.5rem;
             font-weight: 900;
             margin-bottom: 0;
+            @include tablet{
+                font-size: 2.5rem;
+                text-align: center;
+            }
         }
         p{
             font-size: 1.5rem;
             font-weight: 100;
+            @include tablet{
+                font-size: 1rem;
+                text-align: center;
+                width: 20rem;
+            }
         }
         .imgContainer{
             height: 15rem;
@@ -39,8 +54,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @include tablet{
+                height: 10rem;
+                width: 10rem;
+            }
             img{
                 width: 14rem;
+                @include tablet{
+                    width: 9rem;
+                }
             }
         }
     }

@@ -1,0 +1,71 @@
+.reviewsSection{
+    height: 100vh;
+    width: 100vw;
+    background-color: $secundario;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    @include tablet{
+        height: 100%;
+        padding: 3rem 0;
+    }
+    h2{
+        font-family: $fuente_titulos;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: $blanco;
+        margin-top: 0;
+        @include tablet{
+            font-size: 2.5rem;
+        }
+    }
+    .testimonialsContainer{
+        display: grid;
+        align-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        @include tablet{
+            gap: 1rem;
+        }
+        .reviewContainer{
+            height: 30rem;
+            width: 25rem;
+            padding: 2rem;
+            background-color: $blanco;
+            border-radius: 1rem;
+            display: grid;
+            align-content: center;
+            grid-template-rows: 1fr 6fr 2fr;
+            @include tablet{
+                height: 20rem;
+                width: 15rem;
+            }
+            .ratingContainer{
+                display: flex;
+                align-items: center;
+            }
+            p{
+                font-family: $fuente_base;
+                font-size: 1.3rem;
+                font-weight: 300;
+                line-height: 2rem;
+                letter-spacing: .04rem;
+                @include tablet{
+                    font-size: 1rem;
+                }
+            }
+            .reviewCustomerName{
+                font-family: $fuente_base;
+                font-size: 1.5rem;
+                font-weight: 700;
+                @include tablet{
+                    font-size: 1.2rem;
+                }
+                .reviewCustomerPosition{
+                    font-weight: 300;
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}

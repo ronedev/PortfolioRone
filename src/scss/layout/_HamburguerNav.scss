@@ -3,6 +3,8 @@
   height: 5rem;
   position:relative;
   display: none;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
   @include tablet{
     display:block;
@@ -23,7 +25,7 @@
       top:35%;
     }
     &.line-2 {
-      top:55%;
+      top:52%;
     }
     &.line-3 {
       top: 70%;

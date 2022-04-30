@@ -3,6 +3,7 @@
     "nav.about": "Sobre mi",
     "nav.skills": "Habilidades",
     "nav.portfolio": "Portafolio",
+    "nav.reviews": "Opiniones",
     "nav.contact": "Contacto",
 
     "home.me": "Hola, yo soy ",
@@ -18,5 +19,33 @@
     "skills.btnPrimary": "Mis habilidades",
     "skills.title": "¿Que tecnologias manejo?",
     "skills.description": "Emepcé a estudiar desarrollo web usando herramientas como Youtube, Udemy, la comunidad y la documentación de las distintas tecnologias. Mi camino como desarrollador front-end ha sido 100% autodidacta.",
-    "skills.contact": "Contactame"
+    "skills.contact": "Contactame",
+    "skills.currentlyLearning": "Aprendiendo actualmente: ",
+
+    "works.btnPrimary": "Mis trabajos",
+    "works.title": "Trabajos destacados",
+    "work.description0": "Proyecto ficticio realizado como práctica el cual consta de una asociación de doctores que trabajan vía online permitiendo a sus pacientes pedir turnos e información mediante la pagina.",
+    "work.description3": "Carta digital desarrollada para el restaurante L'obrador. Web donde el cliente puede encontrar todos sus precios y productos al alcance de un click.",
+    "work.description2": "Proyecto web utilizando PokeApi para traer todos tus pokemones favoritos y poder seleccionarlos y ordenarlos.",
+    "work.description4": "Aplicación web con principios de e-commerce de vinos, con el plus de poder elaborar tu propio vino en la misma web.",
+    "work.description1": "Mi propio portafolio como desarrollador Front-end.",
+
+    "reviews.btnPrimary": "Testimonios",
+    "reviews.title": "¿Que opinan mis clientes?",
+    "review.opinion0": "Muy bueno",
+    "review.opinion1": "Excelente",
+
+    "contact.btnPrimary": "Contactame",
+    "contact.title": "¡Empecemos un proyecto juntos!",
+    "contact.description": "¿Estas interesado en trabajar juntos? Contactame sin compromiso. Yo pago el cafe.",
+    "contact.btnDownload": "Descargar CV",
+    "contact.btnSend": "Enviar",
+
+    "error.noName": "¡No olvides ingresar tu nombre!",
+    "error.noCompletedName": "Ingrese un nombre valido",
+    "error.noEmail": "¡No olvides ingresar tu email!",
+    "error.emailNoValid": "Ingrese un email valido",
+    "error.noMessage": "¡No olvides ingresar tu mensaje!",
+
+    "footer.message": "Desarrollado con 💗 por Agustin Vera"
 }

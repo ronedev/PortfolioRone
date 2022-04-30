@@ -5,7 +5,7 @@ import Typed from 'react-typed'
 
 const Home = () => {
   return (
-    <header className='header'>
+    <header className='header' id='home'>
         <section className='home'>
             <h2>
                 <FormattedMessage

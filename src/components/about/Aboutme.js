@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl'
 
 const Aboutme = () => {
     return (
-        <section className='aboutMeSection'>
+        <section className='aboutMeSection' id='about'>
             <img src={retratoMio} alt="Agustin Vera" />
             <div className='aboutMeContainer'>
                 <button className='btn1'>

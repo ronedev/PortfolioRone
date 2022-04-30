@@ -19,7 +19,9 @@ const Navbar = () => {
                     <a href="/"><img src={logoIcon} alt="logoIcon" /></a>
                 </div>
                 <ul className={mobileMenuActive ? 'navList mobileActive' : mobileMenuDesactive ? 'navList mobileActive desactive' : 'navList'} id='navMenu'>
-                    <li><a href="#home">
+                    <li><a href="#home" onClick={()=>{
+
+                    }}>
                         <FormattedMessage
                             id='nav.home'
                             defaultMessage='Home'
@@ -46,6 +48,12 @@ const Navbar = () => {
                             defaultMessage='Portfolio'
                         /></a></li>
 
+                    <li><a href="#reviews" >
+                        <FormattedMessage
+                            id='nav.reviews'
+                            defaultMessage='Reviews'
+                        /></a></li>
+
                     <li><a href="#contact" >
                         <FormattedMessage
                             id='nav.contact'
@@ -69,7 +77,7 @@ const Navbar = () => {
                         idiomaContext.cambiarIdioma('en-US')
                     }} />
                 </div>
-                <a className={mobileMenuActive ? 'hamburguerNav active' : 'hamburguerNav'} id="hamburger-icon" href="#" title="Menu" onClick={() => {
+                <button className={mobileMenuActive ? 'hamburguerNav active' : 'hamburguerNav'} id="hamburger-icon" href="#" title="Menu" onClick={() => {
                     if (mobileMenuActive) {
                         setMobileMenuActive(false)
                         setMobileMenuDesactive(true)
@@ -81,7 +89,7 @@ const Navbar = () => {
                     <span class="line line-1"></span>
                     <span class="line line-2"></span>
                     <span class="line line-3"></span>
-                </a>
+                </button>
             </nav>
         </>
     )
