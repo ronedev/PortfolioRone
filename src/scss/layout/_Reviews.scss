@@ -1,13 +1,13 @@
 .reviewsSection{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: $secundario;
     display: grid;
     justify-items: center;
     align-content: center;
+    margin: 8rem 0 3rem 0;
     @include tablet{
-        height: 100%;
-        padding: 3rem 0;
+        margin: 3rem 0;
     }
     h2{
         font-family: $fuente_titulos;
