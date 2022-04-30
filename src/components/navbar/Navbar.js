@@ -20,7 +20,9 @@ const Navbar = () => {
                 </div>
                 <ul className={mobileMenuActive ? 'navList mobileActive' : mobileMenuDesactive ? 'navList mobileActive desactive' : 'navList'} id='navMenu'>
                     <li><a href="#home" onClick={()=>{
-
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#home'
                     }}>
                         <FormattedMessage
                             id='nav.home'
@@ -28,33 +30,53 @@ const Navbar = () => {
                         />
                     </a></li>
 
-                    <li><a href="#about">
+                    <li><a href="#about" onClick={()=>{
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#about'
+                    }}>
                         <FormattedMessage
                             id='nav.about'
                             defaultMessage='About me'
                         />
                     </a></li>
 
-                    <li><a href="#skills">
+                    <li><a href="#skills" onClick={()=>{
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#skills'
+                    }}>
                         <FormattedMessage
                             id='nav.skills'
                             defaultMessage='Skills'
                         />
                     </a></li>
 
-                    <li><a href="#portfolio">
+                    <li><a href="#portfolio" onClick={()=>{
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#portfolio'
+                    }}>
                         <FormattedMessage
                             id='nav.portfolio'
                             defaultMessage='Portfolio'
                         /></a></li>
 
-                    <li><a href="#reviews" >
+                    <li><a href="#reviews" onClick={()=>{
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#reviews'
+                    }}>
                         <FormattedMessage
                             id='nav.reviews'
                             defaultMessage='Reviews'
                         /></a></li>
 
-                    <li><a href="#contact" >
+                    <li><a href="#contact" onClick={()=>{
+                        setMobileMenuActive(false)
+                        setMobileMenuDesactive(true)
+                        window.location = '#contact'
+                    }}>
                         <FormattedMessage
                             id='nav.contact'
                             defaultMessage='Contact'
