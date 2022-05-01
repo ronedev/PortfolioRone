@@ -85,9 +85,13 @@ const Navbar = () => {
                     <div className='idiomaContainer mobile'>
                         <img src={spanishIcon} alt="spanishIcon" onClick={() => {
                             idiomaContext.cambiarIdioma('es-AR')
+                            setMobileMenuActive(false)
+                            setMobileMenuDesactive(true)
                         }} />
                         <img src={englishIcon} alt="englishIcon" onClick={() => {
                             idiomaContext.cambiarIdioma('en-US')
+                            setMobileMenuActive(false)
+                            setMobileMenuDesactive(true)
                         }} />
                     </div>
                 </ul>

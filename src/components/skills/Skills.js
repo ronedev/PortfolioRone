@@ -25,7 +25,7 @@ const Skills = () => {
                         defaultMessage='I started studying web development using tools like Youtube, Udemy, the community and the documentation of the different technologies. My training as a front-end developer has been 100% self-taught.'
                     />
                 </p>
-                <button className='btn2'>
+                <button className='btn2' onClick={()=> window.location = '#contact'}>
                     <FormattedMessage
                         id='skills.contact'
                         defaultMessage='Contact me'

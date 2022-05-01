@@ -43,15 +43,16 @@
     .contactForm{
         background-color: $principal;
         width: 40rem;
-        height: 20rem;
+        height: 40%;
         border-radius: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        padding: 2rem 0;
         @include tablet{
             max-width: 30rem;
-            height: 25rem;
+            height: 40%;
             margin: 3rem 0;
             justify-content: center;
             #btnSubmit{
@@ -67,8 +68,22 @@
             @include tablet{
                 flex-direction: column;
             }
+            .input{
+                @include tablet{
+                    margin-top: 2rem;
+                }
+            }
             #message{
                 width: 100%;
+            }
+        }
+        .alert{
+            width: 90%;
+            .css-acap47-MuiAlert-message{
+                padding: 1.2rem 0;
+            }
+            @include tablet{
+                margin-top: 1rem;
             }
         }
     }

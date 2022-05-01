@@ -80,14 +80,14 @@ const Contact = () => {
             </div>
             <form className='contactForm'>
                 <div className='inputContainer'>
-                    <TextField variant='outlined' fullWidth label='Name' name='name' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
-                    <TextField variant='outlined' fullWidth label='Email' name='email' type='email' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
+                    <TextField className='input' variant='outlined' fullWidth label='Name' name='name' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
+                    <TextField className='input' variant='outlined' fullWidth label='Email' name='email' type='email' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
                 </div>
                 <div className='inputContainer'>
-                    <TextField id='message' fullWidth variant='outlined' label='Message' name='message' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
+                    <TextField className='input' id='message' fullWidth variant='outlined' label='Message' name='message' required onChange={(e) => setForm({ ...form, [e.target.name]: e.target.value })} />
                 </div>
                 {errorAlert && <>
-                    <Alert severity='error' onClick={() => setErrorAlert(false)}>
+                    <Alert className='alert' variant='outlined' severity='error' fullWidth onClick={() => setErrorAlert(false)}>
                         <FormattedMessage
                             id={errors.name}
                             defaultMessage='Error message'
@@ -95,7 +95,7 @@ const Contact = () => {
                     </Alert>
                 </>}
                 {successAlert && <>
-                    <Alert severity='success' onClick={() => setSuccessAlert(false)}>¡Gracias por contactarme!</Alert>
+                    <Alert className='alert' variant='outlined' severity='success' fullWidth onClick={() => setSuccessAlert(false)}>¡Gracias por contactarme!</Alert>
                 </>}
                 <Button id='btnSubmit' variant='contained' endIcon={<Send />} type='submit' onClick={(e) => formSubmit(e)}>
                     <FormattedMessage

@@ -13,10 +13,6 @@ body {
   background-color: $secundario;
 }
 
-.noOverflowX {
-  overflow-x: hidden;
-}
-
 .btn1{
   border: none;
   background-color: $terciario;
@@ -28,9 +24,8 @@ body {
   height: 3rem;
   padding: 0 2rem;
   @include tablet{
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 2rem;
-    padding: 0;
   }
 }
 .btn2{
