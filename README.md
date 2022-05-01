@@ -1,6 +1,6 @@
-# Cuidamos San Rafael
+# Mi portafolio
 
-Proyecto ficticio realizado como práctica el cual consta de una asociación de doctores que trabajan vía online permitiendo a sus pacientes pedir turnos e información mediante la pagina.
+Mi portafolio personal como desarrollador web Frontend.
 
 ## ¿Qué aprendí con este proyecto? 🙇
 Seguí practicando con [React Context](https://es.reactjs.org/docs/context.html), la api de [Intersection Observer](https://developer.mozilla.org/es/docs/Web/API/Intersection_Observer_API), promesas, como utilizar placeholders con react-content-loader, como crearlos con [React Skeleton](https://skeletonreact.com/) y aprendi a utilizar la libreria de [FormatJS](https://formatjs.io/).
