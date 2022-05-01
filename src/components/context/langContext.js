@@ -8,7 +8,7 @@ const langContext = React.createContext()
 const LangProvider = ({ children }) => {
     let messageDefault
     let localeDefault
-    const lang = localStorage.setItem('lang')
+    const lang = localStorage.getItem('lang')
 
     if(lang){
         localeDefault = lang
