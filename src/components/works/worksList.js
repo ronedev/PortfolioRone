@@ -3,6 +3,7 @@ import cuidamosSR from 'img/works/cuidamosSR.JPG'
 import lobrador from 'img/works/lobrador.JPG'
 import pokeapp from 'img/works/pokeapp.JPG'
 import portfolio from 'img/works/portfolio.JPG'
+import weatherApp from 'img/works/weatherapp.JPG'
 
 export const worksList = [
     {
@@ -44,6 +45,14 @@ export const worksList = [
         image: portfolio,
         github: 'https://github.com/ronedev/PortfolioRone',
         url: 'https://ronedev.com/'
+    },
+    {
+        id: 5,
+        title: "Weather App",
+        description: "Mi propio portafolio como desarrollador Front-end.",
+        image: weatherApp,
+        github: 'https://github.com/ronedev/weatherapp',
+        url: 'https://weather-app-d1a8b.web.app/'
     },
     
 ]

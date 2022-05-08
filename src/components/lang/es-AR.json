@@ -27,8 +27,9 @@
     "work.description0": "Proyecto ficticio realizado como práctica el cual consta de una asociación de doctores que trabajan vía online permitiendo a sus pacientes pedir turnos e información mediante la pagina.",
     "work.description3": "Carta digital desarrollada para el restaurante L'obrador. Web donde el cliente puede encontrar todos sus precios y productos al alcance de un click.",
     "work.description2": "Proyecto web utilizando PokeApi para traer todos tus pokemones favoritos y poder seleccionarlos y ordenarlos.",
-    "work.description4": "Aplicación web con principios de e-commerce de vinos, con el plus de poder elaborar tu propio vino en la misma web.",
+    "work.description4": "Aplicación web (en estado de prueba) con principios de e-commerce de vinos, con el plus de poder elaborar tu propio vino en la misma web.",
     "work.description1": "Mi propio portafolio como desarrollador Front-end.",
+    "work.description5": "Proyecto de práctica realizado siguiendo las especificaciónes e historias de usuarios planteadas en devchallenges.io.",
 
     "reviews.btnPrimary": "Testimonios",
     "reviews.title": "¿Que opinan mis clientes?",

@@ -26,14 +26,14 @@
         grid-template-areas: 
         "work0 work2 work4"
         "work0 work3 work4"
-        "work1 work3 work4"
+        "work1 work3 work5"
         ;
         gap: 2rem;
         max-width: 100rem;
         @include tablet{
             grid-template-columns: 1fr;
             grid-template-rows: none;
-            grid-template-areas:"work0" "work2" "work1" "work3" "work4";
+            grid-template-areas:"work0" "work2" "work1" "work3" "work4" "work5";
             width: 100%;
             align-content: center;
             justify-items: center;
@@ -125,5 +125,7 @@
 }
 .work4{
     grid-area: work4;
-    max-height: 60rem;
+}
+.work5{
+    grid-area: work5;
 }

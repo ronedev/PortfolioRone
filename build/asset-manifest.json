@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a81febd.chunk.css",
-    "main.js": "/static/js/main.5f5ff8df.chunk.js",
-    "main.js.map": "/static/js/main.5f5ff8df.chunk.js.map",
+    "main.css": "/static/css/main.ea881f53.chunk.css",
+    "main.js": "/static/js/main.34b8c15a.chunk.js",
+    "main.js.map": "/static/js/main.34b8c15a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.2dabf9b7.chunk.js": "/static/js/2.2dabf9b7.chunk.js",
-    "static/js/2.2dabf9b7.chunk.js.map": "/static/js/2.2dabf9b7.chunk.js.map",
+    "static/js/2.449e0094.chunk.js": "/static/js/2.449e0094.chunk.js",
+    "static/js/2.449e0094.chunk.js.map": "/static/js/2.449e0094.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8a81febd.chunk.css.map": "/static/css/main.8a81febd.chunk.css.map",
-    "static/js/2.2dabf9b7.chunk.js.LICENSE.txt": "/static/js/2.2dabf9b7.chunk.js.LICENSE.txt",
+    "static/css/main.ea881f53.chunk.css.map": "/static/css/main.ea881f53.chunk.css.map",
+    "static/js/2.449e0094.chunk.js.LICENSE.txt": "/static/js/2.449e0094.chunk.js.LICENSE.txt",
     "static/media/brutdecorte.5a8250c5.JPG": "/static/media/brutdecorte.5a8250c5.JPG",
     "static/media/cuidamosSR.846c3142.JPG": "/static/media/cuidamosSR.846c3142.JPG",
-    "static/media/cv.734d8bf0.pdf": "/static/media/cv.734d8bf0.pdf",
+    "static/media/cv.5cb875fe.pdf": "/static/media/cv.5cb875fe.pdf",
     "static/media/figma.72fbc535.png": "/static/media/figma.72fbc535.png",
     "static/media/illustrator.bbb4957d.png": "/static/media/illustrator.bbb4957d.png",
     "static/media/js.3dfb665e.png": "/static/media/js.3dfb665e.png",
@@ -27,12 +27,13 @@
     "static/media/react.86c8d9eb.png": "/static/media/react.86c8d9eb.png",
     "static/media/retratoFondo.36d1ca49.png": "/static/media/retratoFondo.36d1ca49.png",
     "static/media/sass.c5da83bb.png": "/static/media/sass.c5da83bb.png",
-    "static/media/typescript.af108db0.png": "/static/media/typescript.af108db0.png"
+    "static/media/typescript.af108db0.png": "/static/media/typescript.af108db0.png",
+    "static/media/weatherapp.96cf94b4.JPG": "/static/media/weatherapp.96cf94b4.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.2dabf9b7.chunk.js",
-    "static/css/main.8a81febd.chunk.css",
-    "static/js/main.5f5ff8df.chunk.js"
+    "static/js/2.449e0094.chunk.js",
+    "static/css/main.ea881f53.chunk.css",
+    "static/js/main.34b8c15a.chunk.js"
   ]
 }
