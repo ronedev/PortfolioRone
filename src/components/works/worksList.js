@@ -1,8 +1,8 @@
 import brutdecorte from 'img/works/brutdecorte.JPG'
 import cuidamosSR from 'img/works/cuidamosSR.JPG'
-import lobrador from 'img/works/lobrador.JPG'
-import pokeapp from 'img/works/pokeapp.JPG'
-import portfolio from 'img/works/portfolio.JPG'
+import lobrador from 'img/works/lobrador.jpg'
+import fixture from 'img/works/fixture.jpg'
+import portfolio from 'img/works/portfolio.jpg'
 import weatherApp from 'img/works/weatherapp.JPG'
 
 export const worksList = [
@@ -24,11 +24,11 @@ export const worksList = [
     },
     {
         id:2,
-        title: "PokeApp",
-        description: "Proyecto web utilizando PokeApi para traer todos tus pokemones favoritos y poder seleccionarlos y ordenarlos.",
-        image: pokeapp,
-        github: null,
-        url: 'https://pokedex-4576b.web.app/'
+        title: "World cup 22 Predictions",
+        description: "Proyecto de práctica en el cual se podran realizar predicciones del mundial Qatar 2022.",
+        image: fixture,
+        github: 'https://github.com/ronedev/fixture2022',
+        url: 'https://fixture2022.web.app/'
     },
     {
         id: 4,
