@@ -8,12 +8,12 @@
 
     "home.me": "Hola, yo soy ",
     "home.me.name": "Agustin Vera",
-    "home.profession": "Desarrollador Front-end junior",
+    "home.profession": "Desarrollador web junior",
     "home.description": "Me encanta resolver y programar soluciones para darle al usuario la mejor experiencia posible",
 
     "about.btnPrymary": "¿Quien soy?",
     "about.title": "Sobre mi",
-    "about.description": "Hola! Yo soy Agustin Vera y soy un creativo desarrollador Front-end (en un futuro backend tambien) apasionado por crear aplicaciones web. Actualmente soy estudiante de la Tecnicatura Universitaria en Programación en la UTN (Universidad Tecnologica Nacional). Estoy siempre curioso por aprender nuevas habilidades, herramientas y conceptos. He realizado varios proyectos de practica y he trabajado en varios proyectos pagos como freelance.",
+    "about.description": "Hola! Yo soy Agustin Vera y soy desarrollador web. Actualmente estoy estudiando la Tecnicatura Universitaria en Programación en la UTN (Universidad Tecnologica Nacional). Me encanta aprender nuevas habilidades, herramientas y conceptos. He realizado varios proyectos de practica y he trabajado en varios proyectos pagos como freelance.",
     "about.contact": "Contactame",
 
     "skills.btnPrimary": "Mis habilidades",
@@ -24,12 +24,12 @@
 
     "works.btnPrimary": "Mis trabajos",
     "works.title": "Trabajos destacados",
-    "work.description0": "Proyecto ficticio realizado como práctica el cual consta de una asociación de doctores que trabajan vía online permitiendo a sus pacientes pedir turnos e información mediante la pagina.",
-    "work.description3": "Carta digital desarrollada para el restaurante L'obrador. Web donde el cliente puede encontrar todos sus precios y productos al alcance de un click.",
-    "work.description2": "Proyecto de práctica en el cual se podran realizar predicciones del mundial Qatar 2022.",
-    "work.description4": "Aplicación web (en estado de prueba) con principios de e-commerce de vinos, con el plus de poder elaborar tu propio vino en la misma web.",
-    "work.description1": "Mi propio portafolio como desarrollador Front-end.",
-    "work.description5": "Proyecto de práctica realizado siguiendo las especificaciónes e historias de usuarios planteadas en devchallenges.io.",
+    "work.description0": "Aplicación web tipo e-commerce de tienda de ropa online.",
+    "work.description3": "Landing page para casa de hospedaje turistico de San Rafael, Mendoza.",
+    "work.description2": "Proyecto de práctica realizado siguiendo las especificaciónes e historias de usuarios planteadas en devchallenges.io.",
+    "work.description4": "Proyecto ficticio realizado como práctica el cual consta de una asociación de doctores que trabajan vía online permitiendo a sus pacientes pedir turnos e información mediante la pagina.",
+    "work.description1": "Proyecto de práctica en el cual se podran realizar predicciones del mundial Qatar 2022.",
+    "work.description5": "Carta digital desarrollada para el restaurante L'obrador.",
 
     "reviews.btnPrimary": "Testimonios",
     "reviews.title": "¿Que opinan mis clientes?",

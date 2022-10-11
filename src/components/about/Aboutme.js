@@ -1,10 +1,28 @@
 import React from 'react'
 import retratoMio from 'img/retratoFondo.png'
+import twitter from 'img/icons/twitter.png'
+import linkedin from 'img/icons/linkedin.png'
+import instagram from 'img/icons/instagram.png'
+import github from 'img/icons/github.png'
 import { FormattedMessage } from 'react-intl'
 
 const Aboutme = () => {
     return (
         <section className='aboutMeSection' id='about'>
+            <div className='socialMedia'>
+                <a href="https://www.linkedin.com/in/agustin-vera-4600b4221/" target="_blank" rel='noreferrer'>
+                    <img src={linkedin} alt="linkedinIcon" />
+                </a>
+                <a href="https://github.com/ronedev" target="_blank" rel='noreferrer'>
+                    <img src={github} alt="GithubIcon" />
+                </a>
+                <a href="https://twitter.com/AgustinAKArone" target="_blank" rel='noreferrer'>
+                    <img src={twitter} alt="TwitterIcon" />
+                </a>
+                <a href="https://www.instagram.com/agustin_vera25/" target="_blank" rel='noreferrer'>
+                    <img src={instagram} alt="InstagramIcon" />
+                </a>
+            </div>
             <img src={retratoMio} alt="Agustin Vera" />
             <div className='aboutMeContainer'>
                 <button className='btn1'>

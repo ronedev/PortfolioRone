@@ -8,12 +8,12 @@
 
     "home.me": "Hi, I am ",
     "home.me.name": "Agustin Vera",
-    "home.profession": "Front-end developer Junior",
+    "home.profession": "Web developer Junior",
     "home.description": "I love solving and programming solutions to give the user the best possible experience",
 
     "about.btnPrymary": "Who i am",
     "about.title": "About me",
-    "about.description": "Hello! My name is Agustin Vera and I am a creative Front-end developer (in the future backend too) passionate about creating web applications. I am currently a student of the University Technician in Programming at the UTN (National Technological University). I am always curious to learn new skills, tools and concepts. In addition to working on several full stack solo projects, I have worked on several paid projects as a freelancer.",
+    "about.description": "Hello! My name is Agustin Vera and I am web developer. I am currently a student of the University Technician in Programming at the UTN (National Technological University). I love learn new skills, tools and concepts.In addition to working on several full stack solo projects, I have worked on several paid projects as a freelancer.",
     "about.contact": "Contact me",
 
     "skills.btnPrimary": "My skills",
@@ -24,13 +24,13 @@
 
     "works.btnPrimary": "My works",
     "works.title": "Featured Works",
-    "work.description0": "Fictitious project carried out as a practice which consists of an association of doctors who work online allowing their patients to request shifts and information through the page.",
-    "work.description3": "Digital menu developed for the restaurant L'obrador. Web where the client can find all their prices and products within reach of a click.",
-    "work.description2": "Practice project in which predictions of the Qatar 2022 World Cup can be made.",
-    "work.description4": "Web application (in test state) with wine e-commerce principles, with the added bonus of being able to make your own wine on the same website.",
-    "work.description1": "My own portfolio as a Front-end developer.",
-    "work.description5": "Practice project carried out following the specifications and user stories raised in devchallenges.io",
-
+    "work.description0": "E-commerce type web aplication for an online clothing store.",
+    "work.description3": "Landing page for a tourist accommodation house in San Rafael, Mendoza.",
+    "work.description2": "Practice project carried out following the specifications and user stories raised in devchallenges.io.",
+    "work.description4": "Fictitious project carried out as a practice which consists of an association of doctors who work online allowing their patients to request shifts and information through the page.",
+    "work.description1": "Practice project in which predictions of the Qatar 2022 World Cup can be made.",
+    "work.description5": "Digital menu developed for the restaurant L'obrador.",
+    
     "reviews.btnPrimary": "Testimonials",
     "reviews.title": "What customer says",
     "review.opinion0": "Very good attention from Agustín and very satisfied with the final result. Excellent value for money!",

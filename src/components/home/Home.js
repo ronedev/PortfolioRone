@@ -14,10 +14,9 @@ const Home = () => {
                 />
                 <span>
                     <Typed
-                        strings={['Agustin Vera', 'Rone', 'R-1']}
+                        strings={['R-1', 'Rone', 'Agustin Vera']}
                         typeSpeed={120}
                         backSpeed={150}
-                        loop
                     />
                 </span>
             </h2>

@@ -29,9 +29,9 @@ const Works = () => {
                                         defaultMessage="Proyect description"
                                     />
                                 </p>
-                                <div className='btnContainer'>
-                                    {work.github && <button className='btn2' onClick={()=> window.location = work.github}>GitHub</button>}
-                                    <button className='btn2' onClick={()=> window.location = work.url}>Website</button>
+                                <div className='btnContainer' style={{'gap': '2rem'}}>
+                                    {work.github && <a className='btn2' href={work.github} target='_blank' rel='noreferrer'>GitHub</a>}
+                                    <a href={work.url} target='_blank' rel='noreferrer' className='btn2'>Website</a>
                                 </div>
                             </div>
                         </div>

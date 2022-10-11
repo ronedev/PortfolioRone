@@ -22,7 +22,6 @@ function App() {
           <Works />
           <Reviews />
           <Contact />
-          <Footer />
         </Route>
       </Switch>
     </Router>
