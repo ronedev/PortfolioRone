@@ -64,14 +64,6 @@
   border-radius: 1rem;
   img{
     width: 4.5rem;
-    filter: grayscale(100%);
-    &:hover{
-      filter: grayscale(0%);
-      transition: all .3s ease-in;
-    }
-    @include tablet{
-      filter: grayscale(0%);
-    }
   }
 }
 

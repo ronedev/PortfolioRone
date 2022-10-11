@@ -1,15 +1,26 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.ea881f53.chunk.css",
     "main.js": "/static/js/main.032099ea.chunk.js",
     "main.js.map": "/static/js/main.032099ea.chunk.js.map",
+=======
+    "main.css": "/static/css/main.834163a6.chunk.css",
+    "main.js": "/static/js/main.9471f4d6.chunk.js",
+    "main.js.map": "/static/js/main.9471f4d6.chunk.js.map",
+>>>>>>> 20929c44be1d7f28f3402868c5a34bc2f9010cca
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/js/2.2dabf9b7.chunk.js": "/static/js/2.2dabf9b7.chunk.js",
     "static/js/2.2dabf9b7.chunk.js.map": "/static/js/2.2dabf9b7.chunk.js.map",
     "index.html": "/index.html",
+<<<<<<< HEAD
     "static/css/main.ea881f53.chunk.css.map": "/static/css/main.ea881f53.chunk.css.map",
     "static/js/2.2dabf9b7.chunk.js.LICENSE.txt": "/static/js/2.2dabf9b7.chunk.js.LICENSE.txt",
+=======
+    "static/css/main.834163a6.chunk.css.map": "/static/css/main.834163a6.chunk.css.map",
+    "static/js/2.449e0094.chunk.js.LICENSE.txt": "/static/js/2.449e0094.chunk.js.LICENSE.txt",
+>>>>>>> 20929c44be1d7f28f3402868c5a34bc2f9010cca
     "static/media/brutdecorte.5a8250c5.JPG": "/static/media/brutdecorte.5a8250c5.JPG",
     "static/media/cuidamosSR.487a2a31.JPG": "/static/media/cuidamosSR.487a2a31.JPG",
     "static/media/cv.5cb875fe.pdf": "/static/media/cv.5cb875fe.pdf",
@@ -23,7 +34,11 @@
     "static/media/nextjs.2b05ac76.png": "/static/media/nextjs.2b05ac76.png",
     "static/media/node-js.e328955d.png": "/static/media/node-js.e328955d.png",
     "static/media/photoshop.86d7467e.png": "/static/media/photoshop.86d7467e.png",
+<<<<<<< HEAD
     "static/media/portfolio.032848b3.jpg": "/static/media/portfolio.032848b3.jpg",
+=======
+    "static/media/portfolio.032848b3.JPG": "/static/media/portfolio.032848b3.JPG",
+>>>>>>> 20929c44be1d7f28f3402868c5a34bc2f9010cca
     "static/media/react.86c8d9eb.png": "/static/media/react.86c8d9eb.png",
     "static/media/retratoFondo.36d1ca49.png": "/static/media/retratoFondo.36d1ca49.png",
     "static/media/sass.c5da83bb.png": "/static/media/sass.c5da83bb.png",
@@ -32,8 +47,14 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
+<<<<<<< HEAD
     "static/js/2.2dabf9b7.chunk.js",
     "static/css/main.ea881f53.chunk.css",
     "static/js/main.032099ea.chunk.js"
+=======
+    "static/js/2.449e0094.chunk.js",
+    "static/css/main.834163a6.chunk.css",
+    "static/js/main.9471f4d6.chunk.js"
+>>>>>>> 20929c44be1d7f28f3402868c5a34bc2f9010cca
   ]
 }

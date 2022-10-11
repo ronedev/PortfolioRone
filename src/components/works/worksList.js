@@ -2,7 +2,7 @@ import brutdecorte from 'img/works/brutdecorte.JPG'
 import cuidamosSR from 'img/works/cuidamosSR.JPG'
 import lobrador from 'img/works/lobrador.jpg'
 import fixture from 'img/works/fixture.jpg'
-import portfolio from 'img/works/portfolio.jpg'
+import portfolio from 'img/works/portfolio.JPG'
 import weatherApp from 'img/works/weatherapp.JPG'
 
 export const worksList = [
